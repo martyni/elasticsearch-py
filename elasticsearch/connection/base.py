@@ -32,7 +32,7 @@ class Connection(object):
         port=9200,
         use_ssl=False,
         url_prefix="",
-        timeout=10,
+        timeout=5000,
         **kwargs
     ):
         """
